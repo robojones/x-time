@@ -6,14 +6,15 @@
 ```
 const xTime = require('x-time');
 
-xTime(1000).then(() => {
-    console.log('waited one second');
+xTime(1000, 'one').then(value => {
+    console.log(`waited ${value} second`);
 });
 ```
 
-## xTime(time)
+## Function: xTime(time[, value])
 
 - time __\<Number\>__ duration of timeout in ms
+- value __\<any\>__ value to resolve the promise with
 
-Returns a promise that gets resolved when the __time__ has passed.
+Returns a promise that gets resolved with the __value__ when the __time__ has passed.
 
