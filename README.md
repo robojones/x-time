@@ -1,4 +1,4 @@
-# x-time - timeout verion of setTimeout()
+# x-time - timeout version of setTimeout()
 
 ## Example
 
@@ -13,7 +13,7 @@ xTime(1000).then(() => {
 
 ## xTime(time)
 
-- time \<Number\> duration of timeout in ms
+- time __\<Number\>__ duration of timeout in ms
 
 Returns a promise that gets resolved when the __time__ has passed.
 
