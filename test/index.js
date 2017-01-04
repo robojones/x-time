@@ -19,10 +19,10 @@ describe('xTime', function () {
             assert.strictEqual(v, arg)
         })
     })
-    
-    it('should resolve after the given time (circa 1000ms)', function () {
 
-        let r = xTime(1000)
+    it('should resolve after the given time (circa 10ms)', function () {
+
+        let r = xTime(10)
 
         let t0 = process.hrtime()
 
@@ -31,9 +31,7 @@ describe('xTime', function () {
 
             let duration = t[0] *1000 + Math.round(t[1] /1000000)
 
-            if((!duration > 900 && duration < 1100)){
-                cb(new Error(`expected duration to be circa 1000ms - instead got ${duration}`))
-            }
+            assert(8 < duration && 12 > duration)
         })
     })
 })
