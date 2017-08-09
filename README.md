@@ -1,14 +1,21 @@
 # x-time - timeout version of setTimeout()
 
+[![Build Status](https://travis-ci.org/robojones/x-time.svg?branch=master)](https://travis-ci.org/robojones/x-time)
+
 ## Example
 
-
-```
-const xTime = require('x-time');
+```javascript
+const xTime = require('x-time')
 
 xTime(1000, 'one').then(value => {
-    console.log(`waited ${value} second`);
-});
+  console.log(`waited ${value} second`)
+})
+```
+
+You can also `await` the x-time promise:
+
+```javascript
+await xTime(1000)
 ```
 
 ## Function: xTime(time[, value])
