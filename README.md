@@ -1,6 +1,8 @@
 # x-time - timeout version of setTimeout()
 
 [![Build Status](https://travis-ci.org/robojones/x-time.svg?branch=master)](https://travis-ci.org/robojones/x-time)
+[![Test Coverage](https://codeclimate.com/github/robojones/x-time/badges/coverage.svg)](https://codeclimate.com/github/robojones/x-time/coverage)
+[![Issue Count](https://codeclimate.com/github/robojones/x-time/badges/issue_count.svg)](https://codeclimate.com/github/robojones/x-time)
 
 ## Example
 
