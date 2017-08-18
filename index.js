@@ -1,7 +1,7 @@
 /**
- * Returns a promise that resolves after the time to the value
- * @param {number} time - Number of milliseconds 
- * @param {*} [value] - Resolve value
+ * Returns a promise that resolves after the given time to the given value.
+ * @param {number} time - Number of milliseconds .
+ * @param {*} [value] - Resolve value.
  * @returns {Promise.<*>}
  */
 function xTime(time, value) {
