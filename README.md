@@ -1,4 +1,5 @@
-# x-time - setTimeout() with native promises
+# x-time
+setTimeout() with native promises
 
 [![Build Status](https://travis-ci.org/robojones/x-time.svg?branch=master)](https://travis-ci.org/robojones/x-time)
 [![Test Coverage](https://codeclimate.com/github/robojones/x-time/badges/coverage.svg)](https://codeclimate.com/github/robojones/x-time/coverage)
