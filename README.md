@@ -32,10 +32,18 @@ You can also `await` the x-time promise:
 await xTime(1000)
 ```
 
+## Import in Typescript
+
+The default import syntax of TypeScript does not work with this module because it exports a function directly.
+You need to use the following syntax in order to get completions:
+
+```typescript
+import xTime = require('x-time')
+```
+
 ## Function: xTime(time[, value])
 
 - __time__ `<Number>` duration of timeout in ms
 - __value__ `<any>` value to resolve the promise with
 
 Returns a promise that gets resolved to the __value__ when the __time__ has passed.
-
